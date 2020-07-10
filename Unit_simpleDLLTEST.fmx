@@ -1,0 +1,131 @@
+<<<<<<< HEAD
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 512
+  ClientWidth = 334
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btn_add2numbers: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'C = A + B '
+    OnClick = btn_add2numbersClick
+  end
+  object spnbx_B: TSpinBox
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Cursor = crIBeam
+    Position.X = 104.000000000000000000
+    Position.Y = 88.000000000000000000
+  end
+  object spnbx_A: TSpinBox
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Cursor = crIBeam
+    Position.X = 104.000000000000000000
+    Position.Y = 40.000000000000000000
+  end
+  object lbl1: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 40.000000000000000000
+    Text = 'Number A='
+    TabOrder = 3
+  end
+  object lbl2: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 88.000000000000000000
+    Text = 'Number B = '
+    TabOrder = 4
+  end
+  object mmo_out: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 16.000000000000000000
+    Position.Y = 272.000000000000000000
+    Size.Width = 300.000000000000000000
+    Size.Height = 228.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Viewport.Width = 296.000000000000000000
+    Viewport.Height = 224.000000000000000000
+  end
+  object btn_Minus2Numbers: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 176.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'C = A - B '
+    OnClick = btn_Minus2NumbersClick
+  end
+end
+=======
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 512
+  ClientWidth = 334
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btn_add2numbers: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'C = A + B '
+    OnClick = btn_add2numbersClick
+  end
+  object spnbx_B: TSpinBox
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Cursor = crIBeam
+    Position.X = 104.000000000000000000
+    Position.Y = 88.000000000000000000
+  end
+  object spnbx_A: TSpinBox
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Cursor = crIBeam
+    Position.X = 104.000000000000000000
+    Position.Y = 40.000000000000000000
+  end
+  object lbl1: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 40.000000000000000000
+    Text = 'Number A='
+    TabOrder = 3
+  end
+  object lbl2: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 88.000000000000000000
+    Text = 'Number B = '
+    TabOrder = 4
+  end
+  object mmo_out: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 16.000000000000000000
+    Position.Y = 200.000000000000000000
+    Size.Width = 300.000000000000000000
+    Size.Height = 300.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Viewport.Width = 296.000000000000000000
+    Viewport.Height = 296.000000000000000000
+  end
+end
+>>>>>>> bbb2158d43dfecb05c66c2f26ff5e1cc9180373d
