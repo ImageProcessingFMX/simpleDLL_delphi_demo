@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 program Project_dlltest;
 
 uses
@@ -28,4 +27,4 @@ begin
   Application.CreateForm(TForm1, Form1);
   Application.Run;
 end.
->>>>>>> bbb2158d43dfecb05c66c2f26ff5e1cc9180373d
+
