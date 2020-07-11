@@ -56,4 +56,14 @@ object Form1: TForm1
     Viewport.Width = 296.000000000000000000
     Viewport.Height = 296.000000000000000000
   end
+  object btn_minus2numbers: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'C = A - B'
+    OnClick = btn_minus2numbersClick
+  end
 end
